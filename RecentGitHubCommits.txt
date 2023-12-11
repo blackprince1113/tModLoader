@@ -1,0 +1,10 @@
+23aa262bde1ae5440cf2b05b2f676feb787cdc95 Update "Install .NET 6.0 SDK" Tip & Misc (#3946)
+bb33b2746ec454426979e3f68ce864cdbe5eca44 Enable tModPorter on non-Windows from develop mods menu (#3940)
+510c00f00804b572925d770760288c5a3896eace Clear out dotnet install dir if mismatching OS. Warn Proton. (#3939)
+2e51c16f81c629889d8501689a10fc6eafda421f Remove unused reference to customArgs in ScriptCaller.sh
+86e17854e2f587432010ec227b9742869e7d3776 Fix a typo
+571e852062fd2512d63b35747f309d96dc0aff10 Add launch argument logging to ScriptCaller.sh/Launch.log to help debug launch issues.
+d039a0dc63ca62ed3b9a6a4dc023751e4033550c Clean up "SDL Error:" message, SDL_GetError can return empty string.
+a450e0d820ac01a05d8a2ae30e0f40494fc207d9 Fix #3112, Old Terraria logo/menu easter egg now only affects Terraria menu.
+bf80975de3ed94efcdc478ffd3448ecc243d6647 Add Getters for UIScrollbar visible view sizes values (#3926)
+afb990b8785769d92fef34ce640eba47999067a8 Fix a Case Invariance problem in Mod Browser Install States
