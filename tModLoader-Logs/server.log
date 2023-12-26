@@ -465,3 +465,913 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 [17:29:16.657] [Server Loop Thread/INFO] [Network]: [2][49.228.56.195:54174 (CDY)] Terminating: Connection lost
 [17:29:16.659] [Server Loop Thread/INFO] [Network]: [2][49.228.56.195:54174 (CDY)] Closing TcpSocket
 [17:29:16.661] [Server Loop Thread/INFO] [Terraria]: CDY has left.
+[20:15:32.294] [TCP Listen Thread/INFO] [Terraria]: 49.48.220.101:38120 is connecting...
+[20:15:32.313] [TCP Listen Thread/INFO] [Terraria]: 49.48.220.101:38118 is connecting...
+[20:15:32.632] [Main Thread/INFO] [Terraria]: 49.48.220.101:38120 was booted: You are not using the same version as this server.
+(You cannot connect to a tModLoader Server with an unmodded client)
+[20:15:32.632] [Main Thread/INFO] [Network]: [0][49.48.220.101:38120 (Anonymous)] Terminating: Kicked
+[20:15:32.671] [Server Loop Thread/INFO] [Network]: [0][49.48.220.101:38120 (Anonymous)] Closing TcpSocket
+[20:16:02.748] [Main Thread/INFO] [Network]: [1][49.48.220.101:38118 (Anonymous)] Terminating: Timeout
+[20:16:02.749] [Server Loop Thread/INFO] [Network]: [1][49.48.220.101:38118 (Anonymous)] Closing TcpSocket
+[22:50:58.035] [TCP Listen Thread/INFO] [Terraria]: 62.233.50.179:64649 is connecting...
+[22:50:58.050] [Main Thread/INFO] [Terraria]: 62.233.50.179:64649 was booted: Invalid operation at this state.
+[22:50:58.051] [Main Thread/INFO] [Network]: [0][62.233.50.179:64649 (Anonymous)] Terminating: Kicked
+[22:50:58.053] [Server Loop Thread/INFO] [Network]: [0][62.233.50.179:64649 (Anonymous)] Closing TcpSocket
+[22:50:58.054] [Main Thread/INFO] [Terraria]: 62.233.50.179:64649 was booted: Invalid operation at this state.
+[22:50:58.203] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.get_Position()
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 1568
+   at Terraria.NetMessage.BootPlayer(Int32 plr, NetworkText msg) in tModLoader\Terraria\NetMessage.cs:line 2428
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 3906
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+   at SyncProxy<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 )
+   at Terraria.Netplay.UpdateServerInMainThread() in tModLoader\Terraria\Netplay.cs:line 59
+   at Terraria.Main.DoUpdate(GameTime& gameTime) in tModLoader\Terraria\Main.cs:line 14195
+   at Terraria.Main.Update(GameTime gameTime) in tModLoader\Terraria\Main.cs:line 14094
+   at DMD<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main this, Boolean& reloadMods)
+   at SyncProxy<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main , Boolean& )
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4528
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 78
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 64
+   at System.Threading.Thread.StartCallback()
+
+[22:50:58.206] [Main Thread/ERROR] [Network]: [0][ (Anonymous)] NeverCalled(0)
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.get_Position()
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 1568
+   at Terraria.NetMessage.BootPlayer(Int32 plr, NetworkText msg) in tModLoader\Terraria\NetMessage.cs:line 2428
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 3906
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[08:03:39.458] [TCP Listen Thread/INFO] [Terraria]: 62.233.50.179:62416 is connecting...
+[08:03:39.481] [Main Thread/INFO] [Terraria]: 62.233.50.179:62416 was booted: Invalid operation at this state.
+[08:03:39.482] [Main Thread/INFO] [Network]: [0][62.233.50.179:62416 (Anonymous)] Terminating: Kicked
+[08:03:39.484] [Server Loop Thread/INFO] [Network]: [0][62.233.50.179:62416 (Anonymous)] Closing TcpSocket
+[08:03:39.485] [Main Thread/INFO] [Terraria]: 62.233.50.179:62416 was booted: Invalid operation at this state.
+[08:03:39.496] [Main Thread/ERROR] [Network]: [0][ (Anonymous)] NeverCalled(0)
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.get_Position()
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 1568
+   at Terraria.NetMessage.BootPlayer(Int32 plr, NetworkText msg) in tModLoader\Terraria\NetMessage.cs:line 2428
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 3906
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[10:08:17.264] [TCP Listen Thread/INFO] [Terraria]: 162.142.125.223:59166 is connecting...
+[10:08:17.643] [Server Loop Thread/INFO] [Network]: [0][162.142.125.223:59166 (Anonymous)] Terminating: Connection lost
+[10:08:17.645] [Server Loop Thread/INFO] [Network]: [0][162.142.125.223:59166 (Anonymous)] Closing TcpSocket
+[13:37:03.678] [TCP Listen Thread/INFO] [Terraria]: 91.191.209.202:65447 is connecting...
+[13:37:03.713] [Main Thread/INFO] [Terraria]: 91.191.209.202:65447 was booted: Invalid operation at this state.
+[13:37:03.714] [Main Thread/INFO] [Network]: [0][91.191.209.202:65447 (Anonymous)] Terminating: Kicked
+[13:37:03.716] [Server Loop Thread/INFO] [Network]: [0][91.191.209.202:65447 (Anonymous)] Closing TcpSocket
+[13:37:03.724] [Main Thread/INFO] [Terraria]: 91.191.209.202:65447 was booted: Invalid operation at this state.
+[13:37:03.734] [Main Thread/ERROR] [Network]: [0][ (Anonymous)] NeverCalled(0)
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.get_Position()
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 1568
+   at Terraria.NetMessage.BootPlayer(Int32 plr, NetworkText msg) in tModLoader\Terraria\NetMessage.cs:line 2428
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 3906
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[14:31:41.428] [TCP Listen Thread/INFO] [Terraria]: 49.228.56.195:55724 is connecting...
+[14:31:41.456] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[14:31:41.457] [Main Thread/DEBUG] [tML]: Sending Server Config AlchemistNPCLite:ModConfiguration {}
+[14:31:41.457] [Main Thread/DEBUG] [tML]: Sending Server Config HEROsMod:HEROsModServerConfig {}
+[14:31:41.457] [Main Thread/DEBUG] [tML]: Sending Server Config MagicStorage:MagicStorageServerConfig {}
+[14:31:41.458] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[14:31:42.427] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[14:31:42.429] [Main Thread/INFO] [Terraria]: CDY has joined.
+[14:34:40.271] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:55724 (CDY)] Terminating: Connection lost
+[14:34:40.280] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:55724 (CDY)] Closing TcpSocket
+[14:34:40.293] [Server Loop Thread/INFO] [Terraria]: CDY has left.
+[14:34:44.730] [TCP Listen Thread/INFO] [Terraria]: 49.228.56.195:55732 is connecting...
+[14:34:44.751] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[14:34:44.751] [Main Thread/DEBUG] [tML]: Sending Server Config AlchemistNPCLite:ModConfiguration {}
+[14:34:44.751] [Main Thread/DEBUG] [tML]: Sending Server Config HEROsMod:HEROsModServerConfig {}
+[14:34:44.751] [Main Thread/DEBUG] [tML]: Sending Server Config MagicStorage:MagicStorageServerConfig {}
+[14:34:44.751] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[14:34:46.060] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[14:34:46.067] [Main Thread/INFO] [Terraria]: CDY has joined.
+[14:34:54.955] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:55732 (CDY)] Terminating: Connection lost
+[14:34:54.962] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:55732 (CDY)] Closing TcpSocket
+[14:34:54.969] [Server Loop Thread/INFO] [Terraria]: CDY has left.
+[14:34:58.336] [TCP Listen Thread/INFO] [Terraria]: 49.228.56.195:55734 is connecting...
+[14:34:58.339] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[14:34:58.339] [Main Thread/DEBUG] [tML]: Sending Server Config AlchemistNPCLite:ModConfiguration {}
+[14:34:58.340] [Main Thread/DEBUG] [tML]: Sending Server Config HEROsMod:HEROsModServerConfig {}
+[14:34:58.340] [Main Thread/DEBUG] [tML]: Sending Server Config MagicStorage:MagicStorageServerConfig {}
+[14:34:58.340] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[14:34:59.020] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[14:34:59.035] [Main Thread/INFO] [Terraria]: f has joined.
+[14:35:25.988] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[14:35:28.758] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[14:37:21.217] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:55734 (f)] Terminating: Connection lost
+[14:37:21.220] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:55734 (f)] Closing TcpSocket
+[14:37:21.221] [Server Loop Thread/INFO] [Terraria]: f has left.
+[14:37:24.638] [TCP Listen Thread/INFO] [Terraria]: 49.228.56.195:55748 is connecting...
+[14:37:24.652] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[14:37:24.653] [Main Thread/DEBUG] [tML]: Sending Server Config AlchemistNPCLite:ModConfiguration {}
+[14:37:24.653] [Main Thread/DEBUG] [tML]: Sending Server Config HEROsMod:HEROsModServerConfig {}
+[14:37:24.653] [Main Thread/DEBUG] [tML]: Sending Server Config MagicStorage:MagicStorageServerConfig {}
+[14:37:24.653] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[14:37:25.887] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[14:37:25.889] [Main Thread/INFO] [Terraria]: CDY has joined.
+[14:45:28.290] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[14:45:33.347] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[14:55:28.431] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[14:55:29.198] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[14:59:56.637] [TCP Listen Thread/INFO] [Terraria]: 172.105.128.11:59780 is connecting...
+[14:59:57.141] [Server Loop Thread/INFO] [Network]: [1][172.105.128.11:59780 (Anonymous)] Terminating: Connection lost
+[14:59:57.157] [Server Loop Thread/INFO] [Network]: [1][172.105.128.11:59780 (Anonymous)] Closing TcpSocket
+[15:05:28.381] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[15:05:29.029] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[15:15:28.817] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[15:15:29.466] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[15:25:28.697] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[15:25:29.322] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[15:34:34.910] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:55748 (CDY)] Terminating: Connection lost
+[15:34:34.912] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:55748 (CDY)] Closing TcpSocket
+[15:34:35.273] [Server Loop Thread/INFO] [Terraria]: CDY has left.
+[15:34:39.025] [TCP Listen Thread/INFO] [Terraria]: 49.228.56.195:55801 is connecting...
+[15:34:39.039] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[15:34:39.039] [Main Thread/DEBUG] [tML]: Sending Server Config AlchemistNPCLite:ModConfiguration {}
+[15:34:39.039] [Main Thread/DEBUG] [tML]: Sending Server Config HEROsMod:HEROsModServerConfig {}
+[15:34:39.039] [Main Thread/DEBUG] [tML]: Sending Server Config MagicStorage:MagicStorageServerConfig {}
+[15:34:39.040] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[15:34:40.022] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[15:34:40.025] [Main Thread/INFO] [Terraria]: CDY has joined.
+[15:35:32.521] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[15:35:33.145] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[15:45:32.560] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[15:45:33.264] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[15:50:30.988] [TCP Listen Thread/INFO] [Terraria]: 91.191.209.202:64999 is connecting...
+[15:50:31.009] [Main Thread/INFO] [Terraria]: 91.191.209.202:64999 was booted: Invalid operation at this state.
+[15:50:31.009] [Main Thread/INFO] [Network]: [1][91.191.209.202:64999 (Anonymous)] Terminating: Kicked
+[15:50:31.010] [Server Loop Thread/INFO] [Network]: [1][91.191.209.202:64999 (Anonymous)] Closing TcpSocket
+[15:50:31.014] [Main Thread/INFO] [Terraria]: 91.191.209.202:64999 was booted: Invalid operation at this state.
+[15:50:31.018] [Main Thread/ERROR] [Network]: [1][ (Anonymous)] NeverCalled(0)
+System.ObjectDisposedException: Cannot access a closed Stream.
+   at System.IO.MemoryStream.get_Position()
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 1568
+   at Terraria.NetMessage.BootPlayer(Int32 plr, NetworkText msg) in tModLoader\Terraria\NetMessage.cs:line 2428
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 3906
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[15:55:32.709] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[15:55:33.354] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[15:58:21.638] [TCP Listen Thread/INFO] [Terraria]: 35.203.211.47:60990 is connecting...
+[15:58:31.652] [Server Loop Thread/INFO] [Network]: [1][35.203.211.47:60990 (Anonymous)] Terminating: Connection lost
+[15:58:31.653] [Server Loop Thread/INFO] [Network]: [1][35.203.211.47:60990 (Anonymous)] Closing TcpSocket
+[16:05:32.953] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[16:05:33.597] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[16:15:33.294] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[16:15:33.957] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[16:25:33.336] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[16:25:34.994] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[16:35:33.452] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[16:35:35.101] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[16:45:33.472] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[16:45:35.039] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[16:55:33.728] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[16:55:34.383] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[17:05:34.141] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[17:05:34.837] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[17:13:14.710] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:55801 (CDY)] Terminating: Connection lost
+[17:13:14.712] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:55801 (CDY)] Closing TcpSocket
+[17:13:14.715] [Server Loop Thread/INFO] [Terraria]: CDY has left.
+[17:14:16.476] [TCP Listen Thread/INFO] [Terraria]: 49.228.56.195:55859 is connecting...
+[17:14:16.487] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[17:14:16.487] [Main Thread/DEBUG] [tML]: Sending Server Config AlchemistNPCLite:ModConfiguration {}
+[17:14:16.487] [Main Thread/DEBUG] [tML]: Sending Server Config HEROsMod:HEROsModServerConfig {}
+[17:14:16.487] [Main Thread/DEBUG] [tML]: Sending Server Config MagicStorage:MagicStorageServerConfig {}
+[17:14:16.487] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[17:14:17.500] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[17:14:17.504] [Main Thread/INFO] [Terraria]: CDY has joined.
+[17:16:13.153] [TCP Listen Thread/INFO] [Terraria]: 171.4.176.92:63360 is connecting...
+[17:16:13.159] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[17:16:13.159] [Main Thread/DEBUG] [tML]: Sending Server Config AlchemistNPCLite:ModConfiguration {}
+[17:16:13.159] [Main Thread/DEBUG] [tML]: Sending Server Config HEROsMod:HEROsModServerConfig {}
+[17:16:13.159] [Main Thread/DEBUG] [tML]: Sending Server Config MagicStorage:MagicStorageServerConfig {}
+[17:16:13.159] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[17:16:15.213] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:55859 (CDY)] Terminating: Connection lost
+[17:16:15.214] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:55859 (CDY)] Closing TcpSocket
+[17:16:15.216] [Server Loop Thread/INFO] [Terraria]: CDY has left.
+[17:16:18.908] [TCP Listen Thread/INFO] [Terraria]: 49.228.56.195:55861 is connecting...
+[17:16:18.914] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[17:16:18.915] [Main Thread/DEBUG] [tML]: Sending Server Config AlchemistNPCLite:ModConfiguration {}
+[17:16:18.915] [Main Thread/DEBUG] [tML]: Sending Server Config HEROsMod:HEROsModServerConfig {}
+[17:16:18.915] [Main Thread/DEBUG] [tML]: Sending Server Config MagicStorage:MagicStorageServerConfig {}
+[17:16:18.915] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[17:16:19.813] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[17:16:19.816] [Main Thread/INFO] [Terraria]: CDY has joined.
+[17:16:29.837] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:55861 (CDY)] Terminating: Connection lost
+[17:16:29.846] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:55861 (CDY)] Closing TcpSocket
+[17:16:29.848] [Server Loop Thread/INFO] [Terraria]: CDY has left.
+[17:16:35.812] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[17:16:36.446] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[17:16:42.296] [TCP Listen Thread/INFO] [Terraria]: 49.228.56.195:55862 is connecting...
+[17:16:42.300] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[17:16:42.301] [Main Thread/DEBUG] [tML]: Sending Server Config AlchemistNPCLite:ModConfiguration {}
+[17:16:42.301] [Main Thread/DEBUG] [tML]: Sending Server Config HEROsMod:HEROsModServerConfig {}
+[17:16:42.301] [Main Thread/DEBUG] [tML]: Sending Server Config MagicStorage:MagicStorageServerConfig {}
+[17:16:42.301] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[17:16:43.520] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[17:16:43.522] [Main Thread/INFO] [Terraria]: CDY2 has joined.
+[17:17:07.134] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[17:17:07.138] [Main Thread/INFO] [Terraria]: Icez has joined.
+[17:18:05.135] [Server Loop Thread/INFO] [Network]: [1][171.4.176.92:63360 (Icez)] Terminating: Connection lost
+[17:18:05.150] [Server Loop Thread/INFO] [Network]: [1][171.4.176.92:63360 (Icez)] Closing TcpSocket
+[17:18:05.196] [Server Loop Thread/INFO] [Terraria]: Icez has left.
+[17:22:34.827] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[17:22:34.827] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[17:26:36.094] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[17:26:36.740] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[17:36:36.157] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[17:36:36.780] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[17:39:20.816] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[17:39:20.816] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[17:44:00.150] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[17:44:00.151] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[17:44:03.135] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[17:44:03.135] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[17:46:36.202] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[17:46:36.851] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[17:49:36.507] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[17:49:36.508] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[17:50:31.707] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[17:50:31.707] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[17:56:36.250] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[17:56:36.891] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[17:59:10.934] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[17:59:10.935] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[18:04:33.756] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[18:04:33.756] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[18:06:36.296] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[18:06:36.974] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[18:16:36.599] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[18:16:37.217] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[18:26:36.682] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[18:26:40.348] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[18:36:36.728] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[18:36:38.373] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[18:46:36.767] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[18:46:38.429] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[18:55:28.589] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[18:55:28.589] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[18:55:37.131] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[18:55:37.131] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[18:56:16.559] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[18:56:16.559] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[18:56:29.249] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[18:56:29.249] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[18:56:36.873] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[18:56:41.948] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[18:58:38.455] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[18:58:38.455] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[18:58:44.352] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[18:58:44.352] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:01:03.738] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:01:03.738] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:01:08.532] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:01:08.532] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:02:50.559] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:02:50.560] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:03:12.448] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:03:12.448] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:06:36.900] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[19:06:37.554] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[19:06:43.540] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:06:43.540] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:06:46.852] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:06:46.852] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:14:04.430] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook.ThrowItemsOut(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in InfernumMode\Core\ILEditingStuff\MechanicHooks.cs:line 786
+   at Hook<System.Void InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook::ThrowItemsOut(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 35
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 39
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60052
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at Terraria.NPC.checkDead() in tModLoader\Terraria\NPC.cs:line 59406
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65776
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+   at SyncProxy<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 )
+   at Terraria.Netplay.UpdateServerInMainThread() in tModLoader\Terraria\Netplay.cs:line 59
+   at Terraria.Main.DoUpdate(GameTime& gameTime) in tModLoader\Terraria\Main.cs:line 14195
+   at Terraria.Main.Update(GameTime gameTime) in tModLoader\Terraria\Main.cs:line 14094
+   at DMD<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main this, Boolean& reloadMods)
+   at SyncProxy<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main , Boolean& )
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4528
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 78
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 64
+   at System.Threading.Thread.StartCallback()
+
+[19:14:04.434] [Main Thread/ERROR] [Network]: [0][49.228.56.195:55862 (CDY2)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook.ThrowItemsOut(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in InfernumMode\Core\ILEditingStuff\MechanicHooks.cs:line 786
+   at Hook<System.Void InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook::ThrowItemsOut(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60053
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at Terraria.NPC.checkDead() in tModLoader\Terraria\NPC.cs:line 59406
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65776
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[19:14:50.102] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:14:50.102] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:15:22.913] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:15:22.913] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:16:36.966] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[19:16:37.600] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[19:19:55.965] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:19:55.965] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[19:26:37.190] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[19:26:37.818] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[19:32:28.725] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:55862 (CDY2)] Terminating: Connection lost
+[19:32:28.727] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:55862 (CDY2)] Closing TcpSocket
+[19:32:28.730] [Server Loop Thread/INFO] [Terraria]: CDY2 has left.
+[11:25:10.014] [TCP Listen Thread/INFO] [Terraria]: 95.214.53.103:38832 is connecting...
+[11:25:10.447] [Server Loop Thread/INFO] [Network]: [0][95.214.53.103:38832 (Anonymous)] Terminating: Connection lost
+[11:25:10.451] [Server Loop Thread/INFO] [Network]: [0][95.214.53.103:38832 (Anonymous)] Closing TcpSocket
+[11:29:23.253] [TCP Listen Thread/INFO] [Terraria]: 49.228.56.195:57086 is connecting...
+[11:29:23.280] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[11:29:23.281] [Main Thread/DEBUG] [tML]: Sending Server Config AlchemistNPCLite:ModConfiguration {}
+[11:29:23.281] [Main Thread/DEBUG] [tML]: Sending Server Config HEROsMod:HEROsModServerConfig {}
+[11:29:23.281] [Main Thread/DEBUG] [tML]: Sending Server Config MagicStorage:MagicStorageServerConfig {}
+[11:29:23.283] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[11:29:24.605] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[11:29:24.605] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[11:29:24.607] [Main Thread/INFO] [Terraria]: CDY2 has joined.
+[11:33:31.855] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[11:33:32.626] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[11:43:31.776] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[11:43:32.597] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[11:49:41.842] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[11:49:41.843] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[11:51:09.490] [Main Thread/ERROR] [Network]: [0][49.228.56.195:57086 (CDY2)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook.ThrowItemsOut(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in InfernumMode\Core\ILEditingStuff\MechanicHooks.cs:line 786
+   at Hook<System.Void InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook::ThrowItemsOut(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60053
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at Terraria.NPC.checkDead() in tModLoader\Terraria\NPC.cs:line 59406
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65776
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[11:53:10.509] [Main Thread/ERROR] [Network]: [0][49.228.56.195:57086 (CDY2)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook.ThrowItemsOut(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in InfernumMode\Core\ILEditingStuff\MechanicHooks.cs:line 786
+   at Hook<System.Void InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook::ThrowItemsOut(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60053
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at Terraria.NPC.checkDead() in tModLoader\Terraria\NPC.cs:line 59406
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65776
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[11:53:31.756] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[11:53:32.546] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[12:03:31.786] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[12:03:32.489] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[12:08:02.795] [TCP Listen Thread/INFO] [Terraria]: 171.98.242.210:24201 is connecting...
+[12:08:02.817] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[12:08:02.818] [Main Thread/DEBUG] [tML]: Sending Server Config AlchemistNPCLite:ModConfiguration {}
+[12:08:02.818] [Main Thread/DEBUG] [tML]: Sending Server Config HEROsMod:HEROsModServerConfig {}
+[12:08:02.818] [Main Thread/DEBUG] [tML]: Sending Server Config MagicStorage:MagicStorageServerConfig {}
+[12:08:02.818] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[12:08:03.861] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:08:03.863] [Main Thread/INFO] [Terraria]: hmmm has joined.
+[12:08:28.362] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:10:45.135] [TCP Listen Thread/INFO] [Terraria]: 162.216.149.16:57962 is connecting...
+[12:10:51.225] [Server Loop Thread/INFO] [Network]: [2][162.216.149.16:57962 (Anonymous)] Terminating: Connection lost
+[12:10:51.227] [Server Loop Thread/INFO] [Network]: [2][162.216.149.16:57962 (Anonymous)] Closing TcpSocket
+[12:11:26.350] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:11:29.214] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:13:32.107] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[12:13:32.857] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[12:13:44.655] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:13:48.750] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:17:12.075] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:17:26.225] [Main Thread/ERROR] [Network]: [0][49.228.56.195:57086 (CDY2)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook.ThrowItemsOut(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in InfernumMode\Core\ILEditingStuff\MechanicHooks.cs:line 786
+   at Hook<System.Void InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook::ThrowItemsOut(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60053
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at Terraria.NPC.checkDead() in tModLoader\Terraria\NPC.cs:line 59406
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65776
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[12:17:35.127] [Main Thread/ERROR] [Network]: [0][49.228.56.195:57086 (CDY2)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook.ThrowItemsOut(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in InfernumMode\Core\ILEditingStuff\MechanicHooks.cs:line 786
+   at Hook<System.Void InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook::ThrowItemsOut(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60053
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at Terraria.NPC.checkDead() in tModLoader\Terraria\NPC.cs:line 59406
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65776
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[12:18:38.412] [Main Thread/ERROR] [Network]: [0][49.228.56.195:57086 (CDY2)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook.ThrowItemsOut(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in InfernumMode\Core\ILEditingStuff\MechanicHooks.cs:line 786
+   at Hook<System.Void InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook::ThrowItemsOut(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60053
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at Terraria.NPC.checkDead() in tModLoader\Terraria\NPC.cs:line 59406
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65776
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[12:18:59.848] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:19:04.385] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:19:35.456] [Main Thread/ERROR] [Network]: [0][49.228.56.195:57086 (CDY2)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook.ThrowItemsOut(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in InfernumMode\Core\ILEditingStuff\MechanicHooks.cs:line 786
+   at Hook<System.Void InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook::ThrowItemsOut(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60053
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at Terraria.NPC.checkDead() in tModLoader\Terraria\NPC.cs:line 59406
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65776
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[12:20:13.356] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:20:30.758] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:23:07.721] [Main Thread/ERROR] [Network]: [0][49.228.56.195:57086 (CDY2)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook.ThrowItemsOut(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in InfernumMode\Core\ILEditingStuff\MechanicHooks.cs:line 786
+   at Hook<System.Void InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook::ThrowItemsOut(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60053
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at Terraria.NPC.checkDead() in tModLoader\Terraria\NPC.cs:line 59406
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65776
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[12:23:29.978] [Main Thread/ERROR] [Network]: [0][49.228.56.195:57086 (CDY2)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook.ThrowItemsOut(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in InfernumMode\Core\ILEditingStuff\MechanicHooks.cs:line 786
+   at Hook<System.Void InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook::ThrowItemsOut(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60053
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at Terraria.NPC.checkDead() in tModLoader\Terraria\NPC.cs:line 59406
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65776
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[12:23:32.138] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[12:23:32.894] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[12:23:41.816] [Main Thread/ERROR] [Network]: [0][49.228.56.195:57086 (CDY2)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook.ThrowItemsOut(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in InfernumMode\Core\ILEditingStuff\MechanicHooks.cs:line 786
+   at Hook<System.Void InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook::ThrowItemsOut(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60053
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at Terraria.NPC.checkDead() in tModLoader\Terraria\NPC.cs:line 59406
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65776
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[12:24:25.706] [Main Thread/ERROR] [Network]: [0][49.228.56.195:57086 (CDY2)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook.ThrowItemsOut(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in InfernumMode\Core\ILEditingStuff\MechanicHooks.cs:line 786
+   at Hook<System.Void InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook::ThrowItemsOut(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60053
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at Terraria.NPC.checkDead() in tModLoader\Terraria\NPC.cs:line 59406
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65776
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[12:24:26.018] [Main Thread/ERROR] [Network]: [0][49.228.56.195:57086 (CDY2)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook.ThrowItemsOut(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in InfernumMode\Core\ILEditingStuff\MechanicHooks.cs:line 786
+   at Hook<System.Void InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook::ThrowItemsOut(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60053
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at Terraria.NPC.checkDead() in tModLoader\Terraria\NPC.cs:line 59406
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65776
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[12:26:32.300] [Server Loop Thread/INFO] [Network]: [1][171.98.242.210:24201 (hmmm)] Terminating: Connection lost
+[12:26:32.302] [Server Loop Thread/INFO] [Network]: [1][171.98.242.210:24201 (hmmm)] Closing TcpSocket
+[12:26:32.303] [Server Loop Thread/INFO] [Terraria]: hmmm has left.
+[12:26:57.757] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:26:57.758] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:33:32.201] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[12:33:32.985] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[12:36:55.078] [TCP Listen Thread/INFO] [Terraria]: 171.98.242.210:24569 is connecting...
+[12:36:55.102] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[12:36:55.102] [Main Thread/DEBUG] [tML]: Sending Server Config AlchemistNPCLite:ModConfiguration {}
+[12:36:55.102] [Main Thread/DEBUG] [tML]: Sending Server Config HEROsMod:HEROsModServerConfig {}
+[12:36:55.102] [Main Thread/DEBUG] [tML]: Sending Server Config MagicStorage:MagicStorageServerConfig {}
+[12:36:55.103] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[12:36:55.976] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:36:55.979] [Main Thread/INFO] [Terraria]: hmmm has joined.
+[12:39:14.480] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:40:05.134] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:41:14.045] [TCP Listen Thread/INFO] [Terraria]: 45.33.87.154:53384 is connecting...
+[12:41:14.420] [Server Loop Thread/INFO] [Network]: [2][45.33.87.154:53384 (Anonymous)] Terminating: Connection lost
+[12:41:14.428] [Server Loop Thread/INFO] [Network]: [2][45.33.87.154:53384 (Anonymous)] Closing TcpSocket
+[12:42:26.643] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:43:32.358] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[12:43:33.107] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[12:45:55.535] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:48:36.503] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:48:50.402] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[12:50:18.022] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook.ThrowItemsOut(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in InfernumMode\Core\ILEditingStuff\MechanicHooks.cs:line 786
+   at Hook<System.Void InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook::ThrowItemsOut(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 35
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 39
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60052
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at Terraria.NPC.checkDead() in tModLoader\Terraria\NPC.cs:line 59406
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65776
+   at DMD<System.Void Terraria.Projectile:Damage()>(Projectile this)
+   at SyncProxy<System.Void Terraria.Projectile:Damage()>(Projectile )
+   at Terraria.Projectile.Update(Int32 i) in tModLoader\Terraria\Projectile.cs:line 13274
+   at DMD<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main this, Stopwatch sw)
+   at SyncProxy<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main , Stopwatch )
+   at Terraria.Main.DoUpdate(GameTime& gameTime) in tModLoader\Terraria\Main.cs:line 14556
+   at Terraria.Main.Update(GameTime gameTime) in tModLoader\Terraria\Main.cs:line 14094
+   at DMD<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main this, Boolean& reloadMods)
+   at SyncProxy<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main , Boolean& )
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4528
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 78
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 64
+   at System.Threading.Thread.StartCallback()
+
+[12:51:31.256] [Main Thread/ERROR] [Network]: [0][49.228.56.195:57086 (CDY2)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook.ThrowItemsOut(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in InfernumMode\Core\ILEditingStuff\MechanicHooks.cs:line 786
+   at Hook<System.Void InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook::ThrowItemsOut(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60053
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at Terraria.NPC.checkDead() in tModLoader\Terraria\NPC.cs:line 59406
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65776
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[12:52:26.267] [Main Thread/ERROR] [Network]: [0][49.228.56.195:57086 (CDY2)] DamageNPC(28)
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NetMessage.SendData(Int32 msgType, Int32 remoteClient, Int32 ignoreClient, NetworkText text, Int32 number, Single number2, Single number3, Single number4, Int32 number5, Int32 number6, Int32 number7) in tModLoader\Terraria\NetMessage.cs:line 78
+   at CalamityMod.ILEditing.ILChanges.ColorBlightedGel(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in CalamityMod\ILEditing\VanillaStupidityFixingILChanges.cs:line 292
+   at Hook<System.Void CalamityMod.ILEditing.ILChanges::ColorBlightedGel(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook.ThrowItemsOut(orig_ModifyItemDropFromNPC orig, NPC npc, Int32 itemIndex) in InfernumMode\Core\ILEditingStuff\MechanicHooks.cs:line 786
+   at Hook<System.Void InfernumMode.Core.ILEditingStuff.MakeAquaticScourgeSpitOutDropsHook::ThrowItemsOut(Terraria.GameContent.ItemDropRules.On_CommonCode+orig_ModifyItemDropFromNPC,Terraria.NPC,System.Int32)>(NPC , Int32 )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.CommonCode:ModifyItemDropFromNPC(Terraria.NPC, System.Int32)>(NPC , Int32 )
+   at Terraria.GameContent.ItemDropRules.CommonDrop.TryDroppingItem(DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\CommonDrop.cs:line 44
+   at Terraria.GameContent.ItemDropRules.ItemDropResolver.ResolveRule(IItemDropRule rule, DropAttemptInfo info) in tModLoader\Terraria\GameContent\ItemDropRules\ItemDropResolver.cs:line 31
+   at DMD<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver this, DropAttemptInfo info)
+   at ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem.ItemDropResolver_TryDropping(orig_TryDropping orig, ItemDropResolver self, DropAttemptInfo info) in ThoriumMod\Core\Handlers\GrabBagNoLuckHandler\GrabBagNoLuckSystem.cs:line 60
+   at Hook<System.Void ThoriumMod.Core.Handlers.GrabBagNoLuckHandler.GrabBagNoLuckSystem::ItemDropResolver_TryDropping(Terraria.GameContent.ItemDropRules.On_ItemDropResolver+orig_TryDropping,Terraria.GameContent.ItemDropRules.ItemDropResolver,Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at SyncProxy<System.Void Terraria.GameContent.ItemDropRules.ItemDropResolver:TryDropping(Terraria.GameContent.ItemDropRules.DropAttemptInfo)>(ItemDropResolver , DropAttemptInfo )
+   at Terraria.NPC.NPCLoot_DropItems(Player closestPlayer) in tModLoader\Terraria\NPC.cs:line 60053
+   at DMD<System.Void Terraria.NPC:NPCLoot()>(NPC this)
+   at SyncProxy<System.Void Terraria.NPC:NPCLoot()>(NPC )
+   at Terraria.NPC.checkDead() in tModLoader\Terraria\NPC.cs:line 59406
+   at Terraria.NPC.StrikeNPC(HitInfo hit, Boolean fromNet, Boolean noPlayerInteraction) in tModLoader\Terraria\NPC.cs:line 65776
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType) in tModLoader\Terraria\MessageBuffer.cs:line 1638
+   at DMD<System.Void Terraria.NetMessage:CheckBytes(System.Int32)>(Int32 bufferIndex)
+[12:53:32.595] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[12:53:33.366] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[13:03:32.889] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[13:03:33.627] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[13:13:32.918] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[13:13:33.740] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[13:23:33.070] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[13:23:33.857] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[13:29:14.696] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[13:29:26.256] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[13:33:33.333] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[13:33:34.136] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[13:36:09.800] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[13:43:33.647] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[13:43:34.444] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[13:52:39.864] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[13:53:33.899] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[13:53:34.690] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[13:54:51.703] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[13:54:58.919] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[13:56:03.427] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[13:56:09.703] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[14:02:06.526] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[14:03:34.151] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[14:03:34.949] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[14:13:34.434] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[14:13:35.286] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[14:23:34.496] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[14:23:35.305] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[14:33:34.593] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[14:33:35.381] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[14:34:44.218] [Main Thread/WARN] [tML]: Silently Caught Exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CalamityMod.Projectiles.Summon.DeathstareBeam.AI() in CalamityMod\Projectiles\Summon\DeathstareBeam.cs:line 31
+   at Terraria.ModLoader.ProjectileLoader.AI(Projectile projectile) in tModLoader\Terraria\ModLoader\ProjectileLoader.cs:line 179
+   at Terraria.ModLoader.ProjectileLoader.ProjectileAI(Projectile projectile) in tModLoader\Terraria\ModLoader\ProjectileLoader.cs:line 153
+   at Terraria.Projectile.Update(Int32 i) in tModLoader\Terraria\Projectile.cs:line 13004
+   at DMD<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main this, Stopwatch sw)
+   at SyncProxy<System.Void Terraria.Main:DoUpdateInWorld(System.Diagnostics.Stopwatch)>(Main , Stopwatch )
+   at Terraria.Main.DoUpdate(GameTime& gameTime) in tModLoader\Terraria\Main.cs:line 14556
+   at Terraria.Main.Update(GameTime gameTime) in tModLoader\Terraria\Main.cs:line 14094
+   at DMD<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main this, Boolean& reloadMods)
+   at SyncProxy<System.Void Terraria.Main:DedServ_PostModLoad(System.Boolean&)>(Main , Boolean& )
+   at Terraria.Main.DedServ() in tModLoader\Terraria\Main.cs:line 4528
+   at Terraria.Program.RunGame() in tModLoader\Terraria\Program.cs:line 264
+   at Terraria.Program.LaunchGame_(Boolean isServer) in tModLoader\Terraria\Program.cs:line 240
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs) in tModLoader\Terraria\Program.cs:line 213
+   at Terraria.MonoLaunch.Main_End(String[] args) in tModLoader\Terraria\MonoLaunch.cs:line 78
+   at Terraria.MonoLaunch.<>c__DisplayClass1_0.<Main>b__1() in tModLoader\Terraria\MonoLaunch.cs:line 64
+   at System.Threading.Thread.StartCallback()
+
+[14:43:34.643] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[14:43:35.498] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[14:53:34.719] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[14:53:35.491] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[15:03:34.963] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[15:03:35.721] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[15:03:40.528] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[15:04:36.435] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[15:04:55.258] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[15:05:22.196] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[15:06:45.006] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[15:13:35.098] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[15:13:35.722] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[15:16:31.969] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[15:18:57.578] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[15:21:47.967] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[15:22:13.431] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[15:22:16.113] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[15:23:35.122] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[15:23:35.869] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[15:24:08.087] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[15:29:59.426] [TCP Listen Thread/INFO] [Terraria]: 45.79.163.53:41367 is connecting...
+[15:29:59.707] [Server Loop Thread/INFO] [Network]: [2][45.79.163.53:41367 (Anonymous)] Terminating: Connection lost
+[15:29:59.716] [Server Loop Thread/INFO] [Network]: [2][45.79.163.53:41367 (Anonymous)] Closing TcpSocket
+[15:30:13.093] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:57086 (CDY2)] Terminating: Connection lost
+[15:30:13.102] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:57086 (CDY2)] Closing TcpSocket
+[15:30:13.111] [Server Loop Thread/INFO] [Terraria]: CDY2 has left.
+[15:30:23.043] [TCP Listen Thread/INFO] [Terraria]: 49.228.56.195:57275 is connecting...
+[15:30:23.053] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[15:30:23.053] [Main Thread/DEBUG] [tML]: Sending Server Config AlchemistNPCLite:ModConfiguration {}
+[15:30:23.053] [Main Thread/DEBUG] [tML]: Sending Server Config HEROsMod:HEROsModServerConfig {}
+[15:30:23.053] [Main Thread/DEBUG] [tML]: Sending Server Config MagicStorage:MagicStorageServerConfig {}
+[15:30:23.053] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[15:30:24.222] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[15:30:24.225] [Main Thread/INFO] [Terraria]: f has joined.
+[15:30:54.638] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:57275 (f)] Terminating: Connection lost
+[15:30:54.646] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:57275 (f)] Closing TcpSocket
+[15:30:54.646] [Server Loop Thread/INFO] [Terraria]: f has left.
+[15:30:58.403] [TCP Listen Thread/INFO] [Terraria]: 49.228.56.195:60530 is connecting...
+[15:30:58.417] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[15:30:58.417] [Main Thread/DEBUG] [tML]: Sending Server Config AlchemistNPCLite:ModConfiguration {}
+[15:30:58.417] [Main Thread/DEBUG] [tML]: Sending Server Config HEROsMod:HEROsModServerConfig {}
+[15:30:58.417] [Main Thread/DEBUG] [tML]: Sending Server Config MagicStorage:MagicStorageServerConfig {}
+[15:30:58.417] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[15:30:59.891] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[15:30:59.893] [Main Thread/INFO] [Terraria]: CDY2 has joined.
+[15:33:35.162] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[15:33:35.914] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[15:38:01.869] [TCP Listen Thread/INFO] [Terraria]: 45.79.163.53:44251 is connecting...
+[15:38:02.181] [Server Loop Thread/INFO] [Network]: [2][45.79.163.53:44251 (Anonymous)] Terminating: Connection lost
+[15:38:02.182] [Server Loop Thread/INFO] [Network]: [2][45.79.163.53:44251 (Anonymous)] Closing TcpSocket
+[15:43:35.200] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[15:43:35.857] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[15:48:24.878] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[15:48:32.456] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[15:50:40.752] [Server Loop Thread/INFO] [Network]: [1][171.98.242.210:24569 (hmmm)] Terminating: Connection lost
+[15:50:40.754] [Server Loop Thread/INFO] [Network]: [1][171.98.242.210:24569 (hmmm)] Closing TcpSocket
+[15:50:40.755] [Server Loop Thread/INFO] [Terraria]: hmmm has left.
+[15:50:48.608] [TCP Listen Thread/INFO] [Terraria]: 171.98.242.210:25199 is connecting...
+[15:50:48.626] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[15:50:48.626] [Main Thread/DEBUG] [tML]: Sending Server Config AlchemistNPCLite:ModConfiguration {}
+[15:50:48.626] [Main Thread/DEBUG] [tML]: Sending Server Config HEROsMod:HEROsModServerConfig {}
+[15:50:48.626] [Main Thread/DEBUG] [tML]: Sending Server Config MagicStorage:MagicStorageServerConfig {}
+[15:50:48.627] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[15:50:50.450] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[15:50:50.452] [Main Thread/INFO] [Terraria]: tes 1 has joined.
+[15:53:35.507] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[15:53:36.151] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[15:58:42.007] [Server Loop Thread/INFO] [Network]: [1][171.98.242.210:25199 (tes 1)] Terminating: Connection lost
+[15:58:42.009] [Server Loop Thread/INFO] [Network]: [1][171.98.242.210:25199 (tes 1)] Closing TcpSocket
+[15:58:42.009] [Server Loop Thread/INFO] [Terraria]: tes 1 has left.
+[16:01:35.732] [TCP Listen Thread/INFO] [Terraria]: 171.98.242.210:25279 is connecting...
+[16:01:35.755] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[16:01:35.755] [Main Thread/DEBUG] [tML]: Sending Server Config AlchemistNPCLite:ModConfiguration {}
+[16:01:35.755] [Main Thread/DEBUG] [tML]: Sending Server Config HEROsMod:HEROsModServerConfig {}
+[16:01:35.755] [Main Thread/DEBUG] [tML]: Sending Server Config MagicStorage:MagicStorageServerConfig {}
+[16:01:35.755] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[16:02:25.008] [Server Loop Thread/INFO] [Network]: [1][171.98.242.210:25279 (hmmm)] Terminating: Connection lost
+[16:02:25.010] [Server Loop Thread/INFO] [Network]: [1][171.98.242.210:25279 (hmmm)] Closing TcpSocket
+[16:03:35.491] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[16:03:36.116] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[16:13:35.767] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[16:13:36.414] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[16:23:36.028] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[16:23:36.677] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[16:28:51.899] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:60530 (CDY2)] Terminating: Connection lost
+[16:28:51.901] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:60530 (CDY2)] Closing TcpSocket
+[16:28:51.902] [Server Loop Thread/INFO] [Terraria]: CDY2 has left.
+[16:29:09.483] [TCP Listen Thread/INFO] [Terraria]: 49.228.56.195:57314 is connecting...
+[16:29:09.504] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[16:29:09.504] [Main Thread/DEBUG] [tML]: Sending Server Config AlchemistNPCLite:ModConfiguration {}
+[16:29:09.504] [Main Thread/DEBUG] [tML]: Sending Server Config HEROsMod:HEROsModServerConfig {}
+[16:29:09.505] [Main Thread/DEBUG] [tML]: Sending Server Config MagicStorage:MagicStorageServerConfig {}
+[16:29:09.505] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[16:29:10.204] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[16:29:10.204] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[16:29:10.205] [Main Thread/INFO] [Terraria]: i has joined.
+[16:29:18.185] [TCP Listen Thread/INFO] [Terraria]: 80.66.76.32:39946 is connecting...
+[16:29:25.811] [Server Loop Thread/INFO] [Network]: [1][80.66.76.32:39946 (hmmm)] Terminating: Connection lost
+[16:29:25.820] [Server Loop Thread/INFO] [Network]: [1][80.66.76.32:39946 (hmmm)] Closing TcpSocket
+[16:30:05.569] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:57314 (i)] Terminating: Connection lost
+[16:30:05.570] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:57314 (i)] Closing TcpSocket
+[16:30:05.571] [Server Loop Thread/INFO] [Terraria]: i has left.
+[16:30:10.233] [TCP Listen Thread/INFO] [Terraria]: 49.228.56.195:57315 is connecting...
+[16:30:10.238] [Main Thread/DEBUG] [tML]: Sending Server Config ThoriumMod:ThoriumConfigServer {"donatorAccessories":{},"donatorVanities":{},"donatorWeapons":{},"donatorOther":{}}
+[16:30:10.238] [Main Thread/DEBUG] [tML]: Sending Server Config AlchemistNPCLite:ModConfiguration {}
+[16:30:10.239] [Main Thread/DEBUG] [tML]: Sending Server Config HEROsMod:HEROsModServerConfig {}
+[16:30:10.239] [Main Thread/DEBUG] [tML]: Sending Server Config MagicStorage:MagicStorageServerConfig {}
+[16:30:10.239] [Main Thread/DEBUG] [tML]: Sending Server Config OreExcavator:OreExcavatorConfig_Server {"manaConsumption":0.0,"oreMultiplier":1.0}
+[16:30:11.946] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[16:30:11.946] [Main Thread/WARN] [Network]: TcpSocket, AsyncSend after connection closed.
+[16:30:11.947] [Main Thread/INFO] [Terraria]: CDY2 has joined.
+[16:33:58.469] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[16:33:59.150] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[16:43:58.772] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[16:43:59.927] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[16:53:58.823] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[16:53:59.449] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[17:03:58.822] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[17:03:59.494] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[17:13:59.114] [.NET ThreadPool Worker/INFO] [StatusText]: Saving world data
+[17:13:59.744] [.NET ThreadPool Worker/INFO] [StatusText]: Validating world save
+[17:23:32.233] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:57315 (CDY2)] Terminating: Connection lost
+[17:23:32.235] [Server Loop Thread/INFO] [Network]: [0][49.228.56.195:57315 (CDY2)] Closing TcpSocket
+[17:23:32.239] [Server Loop Thread/INFO] [Terraria]: CDY2 has left.
+[00:19:28.561] [TCP Listen Thread/INFO] [Terraria]: 162.216.150.171:57700 is connecting...
+[00:19:38.583] [Server Loop Thread/INFO] [Network]: [0][162.216.150.171:57700 (Anonymous)] Terminating: Connection lost
+[00:19:38.585] [Server Loop Thread/INFO] [Network]: [0][162.216.150.171:57700 (Anonymous)] Closing TcpSocket
+[10:05:48.200] [Main Thread/INFO] [StatusText]: Saving world data
+[10:05:49.787] [Main Thread/INFO] [StatusText]: Validating world save
